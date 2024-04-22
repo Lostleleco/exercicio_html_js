@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+
+<body>
+
+<header class="Menu">
+    <h1>Preencha o Formulário:</h1>
+    
+    <h3>Iremos validar se o campo "B" é maior que o campo "A": </h3>
+</header>
+
+<section>
+    <form id="formulario" onsubmit="return validarFormulario()">
+        <ul>
+            <li>
+               
+                <label for="number">Digite um valor para A</label><br>
+                <input type="number" name="usuario" id="A"><br>
+                <label for="number">Digite um valor para B</label><br>
+                <input type="number" name="usuario" id="B"><br>
+                <input type="submit" value="Enviar">
+            </li>
+        </ul>
+    </form>
+</section>
+
+<script src="main.js"></script>
+
+</body>
+
+</html>
